@@ -1,0 +1,78 @@
+/* Write your CSS here */
+.nav-bar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 15vh;
+  width: 100vw;
+  padding: 10px;
+}
+
+.dark-theme-header {
+  background-color: #333333;
+  color: #dcdcdc;
+}
+
+.light-theme-header {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.logo {
+  height: 40px;
+  width: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo {
+    height: 55px;
+    width: 55px;
+  }
+}
+
+.link-name {
+  font-family: 'Consolas';
+  font-size: 20px;
+  padding-right: 20px;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 768px) {
+  .link-name {
+    font-size: 22px;
+  }
+}
+
+.home-about-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.btn-theme-switch {
+  background-color: transparent;
+  border-style: none;
+}
+
+.theme-img {
+  height: 40px;
+  width: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .theme-img {
+    height: 55px;
+    width: 55px;
+  }
+}
+
+.dark-text {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.light-text {
+  color: #000000;
+  font-weight: bold;
+}

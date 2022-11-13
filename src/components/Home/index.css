@@ -1,0 +1,44 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.home-light {
+  color: black;
+  font-weight: bold;
+}
+
+.home-dark {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.home-logo {
+  height: 120px;
+  width: 120px;
+}
+
+.dark-bg {
+  background-color: black;
+}
+
+.separator-dark {
+  display: none;
+}
+
+.separator-light {
+  display: flex;
+  background-color: #64748b;
+  width: 90%;
+}

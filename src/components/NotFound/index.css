@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.not-found {
+  height: 250px;
+  width: 220px;
+  margin-bottom: 5px;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.dark-bg {
+  background-color: #000000;
+}
+
+.not-found-text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+}
+
+.heading {
+  font-size: 25px;
+  font-family: 'Consolas';
+  margin-top: 5px;
+}
+
+.caption {
+  font-size: 15px;
+  font-family: 'Consolas';
+  margin-top: 5px;
+}
+
+.light-text-theme {
+  color: #ffffff;
+}
+
+.dark-text-theme {
+  color: #000000;
+}
